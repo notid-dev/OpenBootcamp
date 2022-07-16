@@ -1,10 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         int resultado;
-        resultado = suma(50,30,20); //llamo la funcion en el main y le doy valores
+        resultado = suma(50, 30, 20); //llamo la funcion en el main y le doy valores
         System.out.println(resultado);
     }
-    public static int suma (int a, int b, int c){ //funcion con 3 parametros
+
+    public static int suma(int a, int b, int c) { //funcion con 3 parametros
         return a + b + c;
     }
 

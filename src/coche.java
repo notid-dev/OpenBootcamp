@@ -6,7 +6,8 @@ public class coche {   //Crear una clase coche.
     }
 
     public int puertas = 3; //una variable numérica que almacene el número de puertas que tiene.
-    public void sumarPuertas(){//Una función que incremente el número de puertas que tiene el coche.
+
+    public void sumarPuertas() {//Una función que incremente el número de puertas que tiene el coche.
         this.puertas++;
     }
 
