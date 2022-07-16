@@ -1,5 +1,5 @@
 public class Main {
-    public static void suma(String[] args) {
+    public static void main(String[] args) {
         int resultado;
         resultado = suma(50,30,20);
         System.out.println(resultado);
@@ -9,7 +9,6 @@ public class Main {
 
         return a + b + c;
     }
-
 }
 
 
